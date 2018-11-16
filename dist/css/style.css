@@ -1,11 +1,11 @@
 html,
 body,
 header,
-#intro {
+#home {
     height: 100%;
 }
 
-#intro {
+#home {
     background: url("../src/cougar_pantry_brand.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
