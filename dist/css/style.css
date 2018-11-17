@@ -28,3 +28,7 @@ header,
         background-color: #24355C;
     }
 }
+
+#login {
+    height: 100%;  
+}
