@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cougar Pantry
 Project summary
 
@@ -15,3 +16,7 @@ The environment to support this project consists of these tools:
 - [Jose Gonzalez](https://www.linkedin.com/in/jose-gonzalez-50517a169/) | Front-End Developer
 
 Special thanks to [Mike Helmick](https://github.com/mikehelmick) for the guidance in our project!
+=======
+# csusm-pantry
+not the cougar-pantry one :)
+>>>>>>> 3658a1d99984a1c4cb253ad9cb42b5f6bb0e9a5e
