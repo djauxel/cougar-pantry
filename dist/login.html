@@ -29,7 +29,7 @@
             <div class="container">
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="index.html#home">CSUSM</a>
+                <a class="navbar-brand" href="#home">CSUSM</a>
 
                 <!-- Collapse button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -57,6 +57,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#contact">Contact</a>
                         </li>
+
                     </ul>
 
                     <ul class="navbar-nav">
@@ -76,87 +77,72 @@
         </nav>
         <!--/.Navbar-->
 
+        <div class="p-5"></div>
+        <div class="p-5"></div>
+        <div class="p-5"></div>
 
-        <!--Mask-->
-        <div id="login" class="view">
-
-            <div class="mask">
-
-                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
-                    <div class="row d-flex justify-content-center text-center">
-
-                        <div class="col-md-10">
-
-                            <!-- Default form login -->
-                            <form class="text-center p-5">
-
-                                <p class="h4 mb-4">Sign in</p>
-
-                                <!-- Email -->
-                                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                                <!-- Password -->
-                                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4"
-                                    placeholder="Password">
-
-                                <div class="d-flex justify-content-around">
-                                    <div>
-                                        <!-- Remember me -->
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                                            <label class="custom-control-label" for="defaultLoginFormRemember">Remember
-                                                me</label>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <!-- Forgot password -->
-                                        <a href="">Forgot password?</a>
-                                    </div>
-                                </div>
-
-                                <!-- Sign in button -->
-                                <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-
-                                <!-- Register -->
-                                <p>Not a member?
-                                    <a href="">Register</a>
-                                </p>
-
-                                <!-- Social login -->
-                                <p>or sign in with:</p>
-
-                                <a type="button" class="light-blue-text mx-2">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a type="button" class="light-blue-text mx-2">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a type="button" class="light-blue-text mx-2">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <a type="button" class="light-blue-text mx-2">
-                                    <i class="fa fa-github"></i>
-                                </a>
-
-                            </form>
-                            <!-- Default form login -->
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+        <form class="form-signin text-center">
+            <img class="mb-3" src="src/csusm-cougars.svg" alt="" width="150"
+                height="150">
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
             </div>
-
-        </div>
-        <!--/.Mask-->
+            <button class="btn btn-lg btn-login btn-block" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+        </form>
 
     </header>
     <!--Main Navigation-->
 
-    <!-- Start your project here-->
+    <!--Footer-->
+    <footer class="page-footer unique-color-dark">
+
+        <!-- Social buttons -->
+        <div class="primary-color-dark">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!-- Website -->
+                        <a class="ws-ic" href="https://www.csusm.edu/asi/pantry/index.html">
+                            <i class="fa fa-globe white-text mr-4"> </i>
+                        </a>
+                        <!-- Instagram -->
+                        <a class="ig-ic" href="https://www.instagram.com/asi.cougarpantry/">
+                            <i class="fa fa-instagram white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter-->
+                        <a class="tw-ic" href="https://twitter.com/ASI_CSUSM">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/pg/asicougarpantry/posts/">
+                            <i class="fa fa-facebook white-text mr-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
